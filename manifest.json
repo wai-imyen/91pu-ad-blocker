@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Remove 91pu Ads",
+    "version": "1.0",
+    "description": "去除91譜每次載入頁面的廣告",
+    "content_scripts": [
+      {
+        "matches": ["https://www.91pu.com.tw/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "icons": {
+      "128": "/icon.png", 
+      "16": "/icon.png",
+      "48": "/icon.png"
+   },
+    "permissions": ["activeTab", "tabs"]
+  }
