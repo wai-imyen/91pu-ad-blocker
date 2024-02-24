@@ -3,4 +3,4 @@ var adElement = document.getElementById("viptoneWindow");
 if(adElement) {
   adElement.remove();
 }
-console.log('test.test.test.test.test.test.test.test.test.test.test.test.test.test.test.test.test.test.test.');
+console.log('91pu ad blocker is activated.');
